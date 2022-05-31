@@ -29,3 +29,18 @@ img{
     width: 500px;
     height: 325px;
 }
+
+.card-footer{
+    margin-top: 1.5%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#copy{
+    color: white;
+    font-size: large;
+}
+hr{
+    
+    width: 100%;
+}

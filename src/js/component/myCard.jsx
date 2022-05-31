@@ -15,6 +15,7 @@ export const BootstrapCard = (props) => {
 				<div className="card-body">
 					<h5 className="card-title">{props.title}</h5>
 					<p className="card-text">{props.description}</p>
+					<hr />
 					<a href={props.buttonUrl} className="btn btn-primary">
 						{props.buttonLabel}
 					</a>

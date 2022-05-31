@@ -5,6 +5,7 @@ import React from "react";
 import { Jumbotron } from "./jumbotron.jsx";
 import { BootstrapCard } from "./myCard.jsx";
 import { NavBar } from "./myNavBar.jsx";
+import Footer from "./Footer.jsx";
 //create your first component
 const Home = () => {
 	return (
@@ -54,6 +55,7 @@ const Home = () => {
 						buttonLabel="Find out more!"
 					/>
 				</div>
+				<Footer />
 			</div>
 		</>
 	);
